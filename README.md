@@ -1,149 +1,273 @@
-# LipSync GAN - Audio-Visual Speech Synthesis
+<div align="center">
 
-A complete audio-visual lip-sync generation system using WGAN-GP and Sparse Attention, optimized for H100 GPU training.
+# Hi there, I'm Raj Villuri 👋
 
-## Overview
+**Chief AI Officer | Tech Entrepreneur | AI Enthusiast**
 
-This project implements a progressive GAN training pipeline for generating photorealistic lip movements synchronized with audio input. The system uses:
+[![GitHub followers](https://img.shields.io/github/followers/rajvilluri?style=social)](https://github.com/rajvilluri)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-rajvilluri-blue?style=social&logo=linkedin)](https://linkedin.com/in/rajvilluri)
 
-- **Progressive 3-stage training**: Coarse → Sync → Full Adversarial
-- **WGAN-GP** with adaptive gradient penalty
-- **Sparse Transformer** audio encoder (30-50% compute reduction)
-- **Multi-GPU training** with DataParallel (8× H100 80GB HBM3)
-- **Complete preprocessing pipeline** for hierarchical video datasets
-
-## Model Architecture
-
-- **Generator**: CompleteLipSyncModel (18.01M params)
-  - Sparse Transformer audio encoder
-  - Cross-modal attention fusion
-  - Identity encoder for person-specific conditioning
-  - Temporal smoother with optical flow
-
-- **Discriminator**: AdaptiveWGANGPDiscriminator (24.87M params)
-  - Multi-scale discrimination
-  - 3D convolutional architecture
-  - Adaptive gradient penalty
-
-**Total**: 42.88M parameters (163.58 MB)
-
-## Dataset
-
-- **Source**: 37,402 videos, 625 hours (26 days), 258 GB
-- **Processed**: 35,105 videos (93.9%)
-- **Train sequences**: 113,826
-- **Validation sequences**: 15,604
-- **Total sequences**: 129,430
-- **Speakers**: 658 persons
-
-## Key Features
-
-✅ **Smart preprocessing** with person-level detection (skips already processed)
-✅ **GPU-accelerated** preprocessing with MediaPipe face detection
-✅ **Multi-GPU training** with automatic DataParallel
-✅ **Progressive training** over 100 epochs (3 stages)
-✅ **WandB integration** for experiment tracking
-✅ **Automatic checkpoint management** with cleanup
-✅ **FID and MS-SSIM** validation metrics
-
-## Quick Start
-
-### 1. Verify Data Structure
-```bash
-python check_struct.py --data_dir ./transcoded_data
-```
-
-### 2. Preprocess Videos
-```bash
-# Smart batch preprocessing (only processes unprocessed persons)
-python preprocess_smart_batch.py
-```
-
-### 3. Train Model
-```bash
-python train.py \
-  --data_dir ./processed_data \
-  --checkpoint_dir ./checkpoints \
-  --batch_size 8 \
-  --use_wandb \
-  --run_name "lipsync-run1"
-```
-
-### 4. Run Inference
-```bash
-python lipsync_inference.py \
-  --checkpoint ./checkpoints/best_model_full.pt \
-  --video input.mp4 \
-  --audio input.wav \
-  --output output.mp4
-```
-
-## Documentation
-
-- **[COMPLETE_PROJECT_DOCUMENTATION.md](COMPLETE_PROJECT_DOCUMENTATION.md)**: Full technical documentation (1,550+ lines)
-- **[CLAUDE.md](CLAUDE.md)**: Quick reference guide for Claude Code
-- **[README_ADAPTIVE_TRAINING.md](README_ADAPTIVE_TRAINING.md)**: Adaptive training setup
-
-## Core Files
-
-### Training & Model
-- `train.py` - Main training script with progressive 3-stage training
-- `model.py` - Complete model architecture (Generator, Discriminator, SyncNet)
-- `optimizations.py` - v3.1 utilities (MultiMetricMonitor, sparse attention)
-
-### Preprocessing
-- `pipeline.py` - Complete preprocessing pipeline
-- `preprocess_hie.py` - Hierarchical data preprocessing (CPU/GPU)
-- `preprocess_smart_batch.py` - GPU-accelerated batch preprocessing
-- `check_struct.py` - Data structure verification
-
-### Inference
-- `lipsync_inference.py` - Main inference script
-- `production_inference.py` - Production-ready inference
-- `inference.py` - Core inference utilities
-
-### Utilities
-- `calculate_total_duration.py` - Video duration calculator
-- `check_person_completion.py` - Person-level completion checker
-- `verify_preprocessing.py` - Data integrity checker
-- `find_missing_videos.py` - Missing file finder
-- `build_index.py` - Dataset index builder
-
-## Performance
-
-- **Training speed**: ~5.9s per batch, 23.3 hours per epoch
-- **Total training time**: ~97 days (100 epochs on 8× H100)
-- **Throughput**: ~10.8 samples/second (batch_size=8 per GPU)
-- **Preprocessing**: ~18s per video (with MFA), ~6s (without MFA)
-
-## Requirements
-
-- Python 3.10+
-- PyTorch 2.x with CUDA 12.8+
-- 8× NVIDIA H100 80GB HBM3 (or similar GPUs)
-- 128+ GB RAM
-- ~1 TB storage (source + processed data + checkpoints)
-
-## Current Status
-
-- **Completed**: Epoch 0 (validation loss: 23.26)
-- **Stage**: 1 (Coarse Training)
-- **Checkpoint**: `checkpoint_epoch0_coarse.pt`
-- **Next**: Resume training from epoch 1
-
-## Citation
-
-This implementation combines techniques from:
-- WGAN-GP (Gulrajani et al., 2017)
-- Progressive GAN Training (Karras et al., 2018)
-- Sparse Attention (Child et al., 2019)
-- FiLM Conditioning (Perez et al., 2018)
-- Montreal Forced Aligner (McAuliffe et al., 2017)
-
-## License
-
-[Add your license here]
+</div>
 
 ---
 
-**Generated with Claude Code** 🤖
+## 🚀 About Me
+
+```python
+class ChiefAIOfficer:
+    def __init__(self):
+        self.name = "Raj Villuri"
+        self.location = "Dubai, UAE"
+        self.education = "PhD in Computer Science"
+        self.current_role = "Chief AI Officer"
+        self.experience = "10+ Years in AI Leadership"
+        self.expertise = [
+            "Machine Learning & Deep Learning",
+            "Natural Language Processing",
+            "Computer Vision",
+            "AI Strategy & Digital Transformation",
+            "Data Science & Analytics"
+        ]
+        self.achievements = {
+            "ai_projects": "50+",
+            "team_members": "20+",
+            "client_satisfaction": "95%",
+            "data_points": "100M+"
+        }
+    
+    def transform_business(self):
+        while True:
+            bridge_ai_research_to_business()
+            deliver_measurable_results()
+            lead_fortune_500_transformations()
+```
+
+As **Chief AI Officer**, I bridge the gap between cutting-edge artificial intelligence research and practical business applications. I've led AI transformation initiatives at Fortune 500 companies, resulting in significant operational improvements and cost savings.
+
+- 🔭 I'm currently working on **AI Strategy & Transformation Projects**
+- 🌱 I'm continuously learning **Emerging Technologies, AGI, and Advanced ML**
+- 👯 I'm looking to collaborate on **AI Strategy, ML Platforms, and Digital Transformation**
+- 💬 Ask me about **AI Strategy, Machine Learning, Deep Learning, NLP, Computer Vision, PyTorch**
+- 📫 How to reach me: **[rajvilluri@gmail.com](mailto:rajvilluri@gmail.com)** | **+971 585878999**
+- 🌐 Visit my website: **[www.rajvilluri.com](https://www.rajvilluri.com)**
+- ⚡ Fun fact: **I've led AI transformations that reduced operational costs by 30% at enterprise scale**
+
+---
+
+## 🛠️ Tech Stack
+
+### Languages & Frameworks
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
+### AI/ML Tools
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+
+### Tools & Technologies
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rajvilluri&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rajvilluri&layout=compact&theme=radical&hide_border=true&bg_color=0D1117)
+
+![GitHub Streak](https://github-readme-streak-stats.demolab.com/?user=rajvilluri&theme=radical&hide_border=true&background=0D1117)
+
+**50+ AI Projects** | **20+ Team Members** | **95% Client Satisfaction** | **100M+ Data Points**
+
+</div>
+
+---
+
+## 🔥 Featured Projects
+
+### [Predictive Analytics Platform](https://www.rajvilluri.com)
+> Enterprise-scale ML platform reducing operational costs by 30%
+- 🚀 Machine Learning & Advanced Analytics
+- 🎯 Enterprise-scale implementation
+- 📊 Significant cost savings and operational improvements
+
+### [Computer Vision System](https://www.rajvilluri.com)
+> Real-time object detection for manufacturing quality control
+- 👁️ Computer Vision & Real-time Processing
+- 🏭 Manufacturing quality control automation
+- ⚡ Real-time detection capabilities
+
+### [NLP Chatbot Framework](https://www.rajvilluri.com)
+> Intelligent customer service automation with 95% accuracy
+- 🤖 Natural Language Processing
+- 💬 Customer service automation
+- 📈 95% accuracy rate
+
+### [Recommendation Engine](https://www.rajvilluri.com)
+> Personalized content delivery increasing engagement by 40%
+- 🎯 Machine Learning
+- 📊 Personalized content delivery
+- 📈 40% engagement increase
+
+### [Fraud Detection System](https://www.rajvilluri.com)
+> Real-time anomaly detection preventing millions in losses
+- 🛡️ Deep Learning
+- 🔍 Real-time anomaly detection
+- 💰 Millions in fraud prevention
+
+### [AI Strategy Consulting](https://www.rajvilluri.com)
+> Digital transformation roadmap for Fortune 500 company
+- 📋 Strategy & Consulting
+- 🏢 Fortune 500 digital transformation
+- 🗺️ Strategic roadmap development
+
+### [LipSync GAN - Audio-Visual Speech Synthesis](https://github.com/rajvilluri/voice)
+> A complete audio-visual lip-sync generation system using WGAN-GP and Sparse Attention
+- 🚀 Progressive 3-stage training pipeline
+- 🎯 42.88M parameters, optimized for H100 GPU
+- 📊 129,430 training sequences from 658 speakers
+
+---
+
+## 📈 Contribution Graph
+
+<div align="center">
+
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=rajvilluri&theme=radical&hide_border=true)
+
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+![trophy](https://github-profile-trophy.vercel.app/?username=rajvilluri&theme=radical&no-frame=true&no-bg=true&margin-w=4)
+
+</div>
+
+---
+
+## 💼 Experience
+
+### Chief AI Officer
+**10+ Years in AI Leadership**
+
+As Chief AI Officer, I bridge the gap between cutting-edge artificial intelligence research and practical business applications. My expertise spans machine learning, deep learning, natural language processing, and computer vision.
+
+**Key Achievements:**
+- ✅ Led AI transformation initiatives at Fortune 500 companies
+- ✅ Delivered significant operational improvements and cost savings
+- ✅ Combined technical excellence with strategic business acumen
+- ✅ Successfully implemented 50+ AI projects across various industries
+- ✅ Built and managed teams of 20+ AI professionals
+- ✅ Achieved 95% client satisfaction rate
+
+**Expertise:**
+- Machine Learning & Deep Learning algorithms
+- AI Strategy & Organizational Transformation
+- Natural Language Processing & Computer Vision
+- MLOps & Model Deployment
+- Big Data Analytics & Statistical Modeling
+
+---
+
+## 📚 Education
+
+- **PhD in Computer Science** - Golden Gate University
+  - *Specialization:* Emerging Technologies, Data | AI | AGI | Machine Learning | Analytics | Leadership & Strategy
+  - Focus: Artificial General Intelligence (AGI)
+
+- **MS in Computer Science** - University of Colorado Boulder
+  - *Specialization:* Artificial Intelligence
+  - Focus: Algorithms, Machine Learning, NLP, Autonomous Systems, Software Architecture
+
+- **Digital Transformation Program** - National University of Singapore (NUS)
+  - *Focus:* Digital Innovation & Emerging Technologies
+  - Blockchain, IIoT, AutoML, Certified Management Consultant
+
+- **Post Graduate General Management Program** - Indian Institute of Management, Indore (IIM)
+  - *Focus:* Business Strategy and Leadership
+  - Strategic thinking, Innovation Management, Executive Leadership
+
+- **Post Graduate Certificate in Product Management** - Duke University
+  - *Focus:* Certified Product Manager
+  - Product Development, Agile Methodologies, UX
+
+- **Technology and AI Leadership** - Indian Institute of Technology, Delhi (IIT)
+  - *Focus:* Artificial Intelligence & Data Analytics
+  - Technology Leadership, Digital Strategies
+
+- **Bachelor of Technology (BTech)** - SHUATS
+  - *Major:* Computer Science
+  - Foundation in data structures, algorithms, and software development
+
+---
+
+## 🎯 Key Expertise Areas
+
+- **Machine Learning:** Deep Learning, Neural Networks, Reinforcement Learning, MLOps
+- **AI Strategy:** AI Roadmaps, Technology Assessment, Change Management, ROI Analysis
+- **Data Science:** Statistical Analysis, Data Mining, Predictive Modeling, Big Data
+- **Programming:** Python, TensorFlow, PyTorch, Cloud Platforms
+- **Leadership:** Team Building, Mentoring, Agile Methodology, Cross-functional Collaboration
+- **Innovation:** R&D, Patent Development, Technology Transfer, Innovation Labs
+
+---
+
+## 🤝 Connect With Me
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rajvilluri)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rajvilluri)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rajvilluri@gmail.com)
+[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://www.rajvilluri.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.rajvilluri.com)
+
+</div>
+
+---
+
+## 💡 Random Dev Quote
+
+<div align="center">
+
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+</div>
+
+---
+
+<div align="center">
+
+### ⭐️ From [rajvilluri](https://github.com/rajvilluri)
+
+**Thanks for visiting!** 🌟
+
+![Visitor Count](https://profile-counter.glitch.me/rajvilluri/count.svg)
+
+</div>
+
+---
+
+---
+
+<div align="center">
+
+**⭐ If you like this profile, feel free to fork it and customize it for yourself!**
+
+Made with ❤️ by Raj Villuri
+
+</div>
+
