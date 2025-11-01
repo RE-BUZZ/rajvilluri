@@ -1,0 +1,106 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data files (large audio files)
+data/**/*.wav
+data/**/wavs/
+*.wav
+
+# Checkpoint and log files
+*.jsonl
+*_checkpoint.jsonl
+processed_files.txt
+existing_splits_processed.txt
+preprocessing_log.json
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+Thumbs.db
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+env
+
+# Credentials and secrets
+credentials/
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!next.config.*
+!data/**/config.json
+!data/**/speakers.json
+pocreal*.json
+google-credentials.json
+service-account*.json
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Keep config and metadata but not the large audio files
+!data/**/config.json
+!data/**/speakers.json
+!data/**/train.txt
+!data/**/val.txt

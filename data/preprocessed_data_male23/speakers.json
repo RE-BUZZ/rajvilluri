@@ -1,0 +1,308 @@
+{
+  "male193": {
+    "id": 0,
+    "original_files": 72,
+    "created_segments": 711,
+    "total_duration": 4327.328888888888
+  },
+  "male194": {
+    "id": 1,
+    "original_files": 83,
+    "created_segments": 779,
+    "total_duration": 4481.196326530613
+  },
+  "male195": {
+    "id": 2,
+    "original_files": 64,
+    "created_segments": 518,
+    "total_duration": 3264.3179591836747
+  },
+  "male196": {
+    "id": 3,
+    "original_files": 65,
+    "created_segments": 434,
+    "total_duration": 2870.735011337869
+  },
+  "male197": {
+    "id": 4,
+    "original_files": 56,
+    "created_segments": 524,
+    "total_duration": 3309.98789115646
+  },
+  "male198": {
+    "id": 5,
+    "original_files": 59,
+    "created_segments": 561,
+    "total_duration": 3393.348752834467
+  },
+  "male199": {
+    "id": 6,
+    "original_files": 54,
+    "created_segments": 471,
+    "total_duration": 2938.9072108843534
+  },
+  "male200": {
+    "id": 7,
+    "original_files": 68,
+    "created_segments": 567,
+    "total_duration": 3312.054512471654
+  },
+  "male201": {
+    "id": 8,
+    "original_files": 67,
+    "created_segments": 612,
+    "total_duration": 3568.949387755102
+  },
+  "male202": {
+    "id": 9,
+    "original_files": 69,
+    "created_segments": 371,
+    "total_duration": 2326.162811791383
+  },
+  "male203": {
+    "id": 10,
+    "original_files": 68,
+    "created_segments": 590,
+    "total_duration": 3832.15074829932
+  },
+  "male204": {
+    "id": 11,
+    "original_files": 86,
+    "created_segments": 634,
+    "total_duration": 3874.011247165533
+  },
+  "male205": {
+    "id": 12,
+    "original_files": 65,
+    "created_segments": 566,
+    "total_duration": 3369.628435374149
+  },
+  "male206": {
+    "id": 13,
+    "original_files": 60,
+    "created_segments": 414,
+    "total_duration": 2382.759365079366
+  },
+  "male207": {
+    "id": 14,
+    "original_files": 65,
+    "created_segments": 556,
+    "total_duration": 3753.605306122449
+  },
+  "male208": {
+    "id": 15,
+    "original_files": 58,
+    "created_segments": 456,
+    "total_duration": 2799.3201360544213
+  },
+  "male209": {
+    "id": 16,
+    "original_files": 55,
+    "created_segments": 469,
+    "total_duration": 3091.649160997733
+  },
+  "male211": {
+    "id": 17,
+    "original_files": 75,
+    "created_segments": 580,
+    "total_duration": 4445.14231292517
+  },
+  "male212": {
+    "id": 18,
+    "original_files": 59,
+    "created_segments": 408,
+    "total_duration": 2605.31260770975
+  },
+  "male213": {
+    "id": 19,
+    "original_files": 62,
+    "created_segments": 499,
+    "total_duration": 3109.8582312925173
+  },
+  "male214": {
+    "id": 20,
+    "original_files": 55,
+    "created_segments": 433,
+    "total_duration": 2992.459092970521
+  },
+  "male215": {
+    "id": 21,
+    "original_files": 51,
+    "created_segments": 331,
+    "total_duration": 2083.9632653061226
+  },
+  "male216": {
+    "id": 22,
+    "original_files": 53,
+    "created_segments": 473,
+    "total_duration": 2969.6451247165537
+  },
+  "male217": {
+    "id": 23,
+    "original_files": 57,
+    "created_segments": 500,
+    "total_duration": 3373.979002267574
+  },
+  "male218": {
+    "id": 24,
+    "original_files": 60,
+    "created_segments": 470,
+    "total_duration": 3088.6052154195013
+  },
+  "male219": {
+    "id": 25,
+    "original_files": 75,
+    "created_segments": 537,
+    "total_duration": 3424.753786848073
+  },
+  "male220": {
+    "id": 26,
+    "original_files": 62,
+    "created_segments": 495,
+    "total_duration": 3142.6714739229024
+  },
+  "male221": {
+    "id": 27,
+    "original_files": 65,
+    "created_segments": 621,
+    "total_duration": 3651.6051247165537
+  },
+  "male222": {
+    "id": 28,
+    "original_files": 75,
+    "created_segments": 648,
+    "total_duration": 4423.193287981859
+  },
+  "male223": {
+    "id": 29,
+    "original_files": 62,
+    "created_segments": 481,
+    "total_duration": 3072.6651247165537
+  },
+  "male224": {
+    "id": 30,
+    "original_files": 60,
+    "created_segments": 469,
+    "total_duration": 3081.461315192743
+  },
+  "male225": {
+    "id": 31,
+    "original_files": 46,
+    "created_segments": 331,
+    "total_duration": 2129.7545124716553
+  },
+  "male226": {
+    "id": 32,
+    "original_files": 59,
+    "created_segments": 391,
+    "total_duration": 2455.8070294784575
+  },
+  "male227": {
+    "id": 33,
+    "original_files": 63,
+    "created_segments": 409,
+    "total_duration": 2629.5277551020404
+  },
+  "male228": {
+    "id": 34,
+    "original_files": 81,
+    "created_segments": 753,
+    "total_duration": 4409.286031746031
+  },
+  "male229": {
+    "id": 35,
+    "original_files": 62,
+    "created_segments": 520,
+    "total_duration": 3139.8713378684806
+  },
+  "male230": {
+    "id": 36,
+    "original_files": 99,
+    "created_segments": 685,
+    "total_duration": 4251.0835827664405
+  },
+  "male231": {
+    "id": 37,
+    "original_files": 41,
+    "created_segments": 365,
+    "total_duration": 2156.71410430839
+  },
+  "male232": {
+    "id": 38,
+    "original_files": 75,
+    "created_segments": 737,
+    "total_duration": 4336.064444444446
+  },
+  "male233": {
+    "id": 39,
+    "original_files": 73,
+    "created_segments": 549,
+    "total_duration": 3606.9441723356003
+  },
+  "male234": {
+    "id": 40,
+    "original_files": 113,
+    "created_segments": 894,
+    "total_duration": 5986.503356009071
+  },
+  "male235": {
+    "id": 41,
+    "original_files": 94,
+    "created_segments": 755,
+    "total_duration": 4244.366077097507
+  },
+  "male236": {
+    "id": 42,
+    "original_files": 59,
+    "created_segments": 552,
+    "total_duration": 3184.0261224489805
+  },
+  "male237": {
+    "id": 43,
+    "original_files": 56,
+    "created_segments": 444,
+    "total_duration": 2947.9911564625845
+  },
+  "male238": {
+    "id": 44,
+    "original_files": 56,
+    "created_segments": 465,
+    "total_duration": 3081.6284807256243
+  },
+  "male239": {
+    "id": 45,
+    "original_files": 81,
+    "created_segments": 685,
+    "total_duration": 4165.975873015873
+  },
+  "male240": {
+    "id": 46,
+    "original_files": 72,
+    "created_segments": 623,
+    "total_duration": 3855.169569160998
+  },
+  "male241": {
+    "id": 47,
+    "original_files": 73,
+    "created_segments": 561,
+    "total_duration": 3599.176507936508
+  },
+  "male242": {
+    "id": 48,
+    "original_files": 81,
+    "created_segments": 621,
+    "total_duration": 4372.350158730159
+  },
+  "male243": {
+    "id": 49,
+    "original_files": 72,
+    "created_segments": 533,
+    "total_duration": 3420.225668934241
+  },
+  "male244": {
+    "id": 50,
+    "original_files": 61,
+    "created_segments": 87,
+    "total_duration": 600.4255782312925
+  }
+}

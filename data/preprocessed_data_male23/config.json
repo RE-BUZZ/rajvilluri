@@ -1,0 +1,23 @@
+{
+  "train": {
+    "training_files": "train.txt",
+    "validation_files": "val.txt",
+    "batch_size": 32,
+    "learning_rate": 0.0002,
+    "n_epochs": 1000,
+    "seed": 1234
+  },
+  "data": {
+    "sampling_rate": 22050,
+    "filter_length": 1024,
+    "hop_length": 256,
+    "win_length": 1024,
+    "n_mel_channels": 80,
+    "mel_fmin": 0,
+    "mel_fmax": null
+  },
+  "model": {
+    "n_speakers": 51,
+    "speaker_embedding_dim": 256
+  }
+}
