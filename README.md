@@ -18,7 +18,7 @@ class ChiefAIOfficer:
     def __init__(self):
         self.name = "Raj Villuri"
         self.location = "Dubai, UAE"
-        self.education = "PhD in Computer Science"
+        self.education = "PhD in Emerging Technologies - DBA"
         self.current_role = "Chief AI Officer"
         self.experience = "10+ Years in AI Leadership"
         self.expertise = [
@@ -130,6 +130,14 @@ As **Chief AI Officer**, I bridge the gap between cutting-edge artificial intell
 - 🏢 Fortune 500 digital transformation
 - 🗺️ Strategic roadmap development
 
+### [Kopro.ai - Music Industry Collaboration Platform](https://kopro.app)
+> AI-powered networking platform connecting music producers, songwriters, and artists
+- 🎵 Music industry networking and collaboration platform
+- 🤖 AI-powered matching and recommendation engine
+- 🔗 Advanced search and connection algorithms
+- 💼 Intelligent job posting and opportunity matching system
+- 📊 Real-time collaboration infrastructure for music professionals
+
 ### [LipSync GAN - Audio-Visual Speech Synthesis](https://github.com/rajvilluri/voice)
 > A complete audio-visual lip-sync generation system using WGAN-GP and Sparse Attention
 - 🚀 Progressive 3-stage training pipeline
@@ -180,11 +188,30 @@ As Chief AI Officer, I bridge the gap between cutting-edge artificial intelligen
 - MLOps & Model Deployment
 - Big Data Analytics & Statistical Modeling
 
+### Lead Developer & AI Architect @ Kopro.ai
+**Music Industry AI Platform**
+
+Led the development of Kopro.ai, a cutting-edge networking and collaboration platform for the music industry, leveraging AI to connect music producers, songwriters, artists, and industry professionals.
+
+**Key Projects & Achievements:**
+- 🎵 **Kopro App Development**: Architected and developed a comprehensive network platform for music industry professionals with AI-powered matching and recommendation systems
+- 🔗 **Collaboration Network Engine**: Built advanced search and connection algorithms enabling users to browse, discover, and connect with creatives across various music industry fields
+- 💼 **Job Posting & Matching System**: Designed and implemented an intelligent job posting module with AI-driven matching capabilities for music opportunities and talent discovery
+- 🤖 **AI-Powered Features**: Integrated machine learning models for skill matching, profile recommendations, and intelligent search across the platform
+- 🚀 **Platform Architecture**: Designed scalable, cloud-based architecture supporting real-time collaboration and social networking features
+- 📊 **User Engagement**: Implemented analytics and recommendation systems to increase user engagement and successful connections
+
+**Technologies Used:**
+- AI/ML for recommendation systems and matching algorithms
+- Real-time collaboration infrastructure
+- Cloud-based scalable architecture
+- Social networking and profile management systems
+
 ---
 
 ## 📚 Education
 
-- **PhD in Computer Science** - Golden Gate University
+- **PhD in Emerging Technologies - DBA** - Golden Gate University
   - *Specialization:* Emerging Technologies, Data | AI | AGI | Machine Learning | Analytics | Leadership & Strategy
   - Focus: Artificial General Intelligence (AGI)
 

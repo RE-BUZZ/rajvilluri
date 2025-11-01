@@ -25,7 +25,7 @@
 
    ```
    Name: HEYGEN_API_KEY
-   Value: sk_V2_hgu_kgNq3ZDoeYw_H18hzlKm68SJbUYs7LmzCA2MyFJphEjA
+   Value: YOUR_HEYGEN_API_KEY_HERE
    ✅ Production
    ✅ Preview  
    ✅ Development
@@ -33,7 +33,7 @@
 
    ```
    Name: GOOGLE_CLOUD_API_KEY
-   Value: AQ.Ab8RN6JX4NXFGaMU4LphXKszjmxcZ1D_EHh53OsQc86fH8EYUw
+   Value: YOUR_GOOGLE_CLOUD_API_KEY_HERE
    ✅ Production
    ✅ Preview
    ✅ Development
@@ -62,11 +62,11 @@ vercel link
 **Step 3: Set Environment Variables**
 ```bash
 vercel env add HEYGEN_API_KEY
-# Paste: sk_V2_hgu_kgNq3ZDoeYw_H18hzlKm68SJbUYs7LmzCA2MyFJphEjA
+# Paste: YOUR_HEYGEN_API_KEY_HERE
 # Select: Production, Preview, Development
 
 vercel env add GOOGLE_CLOUD_API_KEY
-# Paste: AQ.Ab8RN6JX4NXFGaMU4LphXKszjmxcZ1D_EHh53OsQc86fH8EYUw
+# Paste: YOUR_GOOGLE_CLOUD_API_KEY_HERE
 # Select: Production, Preview, Development
 ```
 

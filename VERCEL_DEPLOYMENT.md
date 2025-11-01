@@ -31,13 +31,13 @@
 
    ```
    Name: HEYGEN_API_KEY
-   Value: sk_V2_hgu_kgNq3ZDoeYw_H18hzlKm68SJbUYs7LmzCA2MyFJphEjA
+   Value: YOUR_HEYGEN_API_KEY_HERE
    Environment: Production, Preview, Development
    ```
 
    ```
    Name: GOOGLE_CLOUD_API_KEY
-   Value: AQ.Ab8RN6JX4NXFGaMU4LphXKszjmxcZ1D_EHh53OsQc86fH8EYUw
+   Value: YOUR_GOOGLE_CLOUD_API_KEY_HERE
    Environment: Production, Preview, Development
    ```
 
@@ -73,8 +73,8 @@
 
 | Variable | Value | Description |
 |----------|-------|-------------|
-| `HEYGEN_API_KEY` | `sk_V2_hgu_kgNq3ZDoeYw_H18hzlKm68SJbUYs7LmzCA2MyFJphEjA` | HeyGen API key for avatar streaming |
-| `GOOGLE_CLOUD_API_KEY` | `AQ.Ab8RN6JX4NXFGaMU4LphXKszjmxcZ1D_EHh53OsQc86fH8EYUw` | Google Cloud API key for Tamil TTS/STT |
+| `HEYGEN_API_KEY` | `YOUR_HEYGEN_API_KEY_HERE` | HeyGen API key for avatar streaming |
+| `GOOGLE_CLOUD_API_KEY` | `YOUR_GOOGLE_CLOUD_API_KEY_HERE` | Google Cloud API key for Tamil TTS/STT |
 
 ### Important Notes
 
